@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Corbel;
+    src: url(../fonts/Corbel.ttf);
+}
+#top {
+    background: #473C8B;
+    margin:0 auto;
+    padding: 20px 100px;
+}
+#top a {
+    text-decoration: none;
+    color:#AFEEEE;
+}
+#top a:hover {
+    color: #00EE76;
+}
+#top .menu li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 25px;
+    font: 15px 'Corbel';
+    /*font-weight: 1000;*/
+    text-transform: uppercase;
+    text-shadow: #0f0f0f 2px 3px 5px;
+
+}
+.logo {
+    display: flex;
+    align-items: flex-end;
+}
